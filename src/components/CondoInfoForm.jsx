@@ -199,12 +199,12 @@ export default function CondoInfoForm() {
                         {formData[id].country}
                       </p>
                     </div>
-                    <button
+                    {/* <button
                       onClick={() => handleDelete(id)}
                       className="text-red-500 text-sm underline mt-1"
                     >
                       Delete
-                    </button>
+                    </button> */}
                   </div>
                 )}
 
@@ -221,12 +221,12 @@ export default function CondoInfoForm() {
                         <span className="text-[16px] font-[500] text-[#6F6C6A] ">Address(same as property)</span>
                       </p>
                     </div>
-                    <button
+                    {/* <button
                       onClick={() => handleDelete(id)}
                       className="text-red-500 text-sm underline mt-1"
                     >
                       Delete
-                    </button>
+                    </button> */}
                   </div>
                 )}
 
@@ -239,12 +239,12 @@ export default function CondoInfoForm() {
                         {"Admin fee: $"}{formData[id].adminFee}
                       </p>
                     </div>
-                    <button
+                    {/* <button
                       onClick={() => handleDelete(id)}
                       className="text-red-500 text-sm underline mt-1"
                     >
                       Delete
-                    </button>
+                    </button> */}
                   </div>
                 )}
 
@@ -260,12 +260,12 @@ export default function CondoInfoForm() {
                         {"Rent due date: "}{formData[id].rentD}{"th every month"}
                       </p>
                     </div>
-                    <button
+                    {/* <button
                       onClick={() => handleDelete(id)}
                       className="text-red-500 text-sm underline mt-1"
                     >
                       Delete
-                    </button>
+                    </button> */}
                   </div>
                 )}
 
